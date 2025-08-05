@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_beginer_ui_basics/demo_list.dart';
+import 'package:thirty_days_beginer_ui_basics/demo_stream.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: DemoListView1(),
+      home: DemoStream(),
     );
   }
 }
