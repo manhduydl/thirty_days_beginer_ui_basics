@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_beginer_ui_basics/demo_stream.dart';
+import 'package:thirty_days_beginer_ui_basics/list_with_spaced_item.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,8 +15,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        cardTheme: CardThemeData(
+          color: Colors.blue.shade50,
+        ),
       ),
-      home: DemoStream(),
+      home: ListWithSpacedItem(),
     );
   }
 }
