@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirty_days_beginer_ui_basics/widget_state.dart';
+import 'package:thirty_days_beginer_ui_basics/tap_area.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                 WidgetState.disabled: Colors.pinkAccent,
                 WidgetState.any: Colors.blue,
               }))),
-      home: DemoWidgetState(),
+      home: DemoTapArea(),
     );
   }
 }
